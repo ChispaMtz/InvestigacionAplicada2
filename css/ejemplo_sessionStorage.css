@@ -1,0 +1,29 @@
+h1 {
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    justify-items: center;
+    width: 100vw;
+
+}
+
+label {
+    margin: 0 0 10px 0;
+}
+
+.sub-container {
+    display: grid;
+    justify-items: center;
+    margin: 20px 0;
+}
+
+.container input, .container textarea {
+    width: 100%;
+    text-align: center;
+}
+
+button {
+    margin: 5px;
+}

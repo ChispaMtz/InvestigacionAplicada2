@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo LocalStorage</title>
+
+    <link rel="stylesheet" href="../css/ejemplo_localStorage.css">
+</head>
+<body>
+    <h1>Ejemplo LocalStorage</h1>
+    <h2 id="welcome-text">Bienvenid@</h2>
+    
+    <div class="container" id="cont">
+        <div class="sub-container">
+            <label for="">Nombre de Usuario</label>
+            <input type="text" id="nombre-usuario" >
+        </div>
+
+        <div class="sub-container">
+            <label for="">Contraseña</label>
+            <input type="text" id="password" >
+        </div> 
+    
+        <button id="crear">Crear Cuenta</button>
+    </div>
+
+    
+    <h1 id="cuenta-creada"></h1>
+    <button id="delete">Borrar Cuenta</button>
+        <script src="../js/local-storage.js"></script>
+</body>
+</html>
