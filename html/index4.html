@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>IndexdDB</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scable=no, initial-scale=1, maximun-scale-1, minimun-scale-1">
+    <link rel="stylesheet" type="text/css" href="css/fontello.css">
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+</head>
+<body>
+	<header>
+    <div class="contenedor">
+        <h1 class="icon-globe">DAW</h1>
+        <input type="checkbox" id="menu-bar">
+        <label class="icon-menu" for="menu-bar"></label>
+                <nav class="menu">
+                    <a href="#">Inicio</a>
+                    <a href="#">SessionStorage </a>
+                    <a href="#">LocalStorage</a>
+                </nav>
+            </div>
+    </header>
+    <main>
+            <section id="banner" >
+                <img src="img/1 N0zghBaNvPlDu97RkJiDdQ.png" alt="banner">
+                <div class="contenedor">
+                    <h2>Indexeddb</h2> 
+                </div>
+            </section>
+            
+            <section id="bienvenidos">
+            <div class="contenedor">
+                <h2>¿Qué es Indexeddb? </h2><br>
+                <p>
+                    Nos permite almacenar datos dentro del navegador del usuario, debido a que permite la creación de aplicaciones con habilidades de consulta enriquecidas, con independencia de la disponibilidad de la red, sus aplicaciones pueden trabajar tanto en línea como fuera de línea.
+
+                </p>
+                <br>
+
+                <p>
+                    Para el almacenamiento en el navegador, es perfecta para almacenar grandes cantidades de datos, como por ejemplo catálogos, u otros que necesitan además una forma de búsqueda rápida de la información. 
+                </p>
+            
+                </div>
+            </section>
+            <section id="blog">
+                <h3>Las características del Indexeddb son:</h3>
+                <br>
+                <div class="contenedor">
+                    <ul>
+                        <li>
+                            <p>Abrir una base de datos.
+                            </p>
+                        </li>
+                        <br>
+                        <br>
+                        <li>
+                            <p>Crear un objeto de almacenamiento en la base de datos.</p>
+                        </li>
+                        <br>
+                        <br>
+                        <li>
+                            <p>Iniciar una transacción y hacer una petición para hacer alguna operación de la base de datos, tal como añadir o recuperar datos.
+                            </p>
+                        </li>
+                        <br>
+                        <br>
+                        <li>
+                            <p>Espere a que se complete la operación por la escucha de la clase correcta de eventos DOM.</p>
+                        </li>
+                        <br>
+                        <br>
+                        <li>
+                            <p>Puede almacenar mucho mayor volumen de datos que localStorage.</p>
+                        </li>
+                        <br>
+                        <br>
+                        <li>
+                            <p>Soporta transacciones para confiabilidad.</p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <br>
+            <section id="blog">
+                <h3>La llamada devuelve un objeto openRequest, debemos escuchar en él los eventos:</h3>
+                <br>
+                <div class="contenedor">
+                    <ul>
+                        <li>
+                            <p>success: la base de datos está lista. Hay un “objeto database” en openRequest.result que habremos de usar en las llamadas subsiguientes.
+
+                            </p>
+                        </li>
+                        <br>
+                        <br>
+                        <li>
+                            <p>error: Apertura fallida.
+                            </p>
+                        </li>
+                        <br>
+                        <br>
+                        <li>
+                            <p>upgradeneeded: La base de datos está lista, pero su versión es obsoleta.
+                            </p>
+                        </li>
+                        <br>
+                        <br>
+                    
+                    </ul>
+                </div>
+            </section>
+
+            <section id="info">
+                <h3>Sintaxis:
+                </h3>
+                <br>
+                <div class="contenedor"><br>
+                    <img src="img/unknown.png" alt="">
+                </div>
+            </section>
+        </main>
+
+        <section id="info">
+            <h3>Apertura con open:
+            </h3>
+            <br>
+            <div class="contenedor"><br>
+                <img src="img/2.png" alt="">
+            </div>
+        </section>
+    </main>
+    
+    <section id="info">
+        <h3>Para borrar una base de datos:
+        </h3>
+        <br>
+        <div class="contenedor"><br>
+            <img src="img/3.png" alt="">
+        </div>
+    </section>
+</main>
+
+
+
+        <footer>
+            <div class="contenedor">
+                <center><p class="copy">Fernando Juárez&copy; 2022</p></center>
+                <div class="sociales">
+                    <a class="icon-instagram" href="https://www.instagram.com/diegomartinez10n/?hl=es-la"></a>
+                </div>
+            </div>
+        </footer>
+
+</body>
+</html>
