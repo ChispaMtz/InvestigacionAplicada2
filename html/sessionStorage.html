@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SessionStorage</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scable=no, initial-scale=1, maximun-scale-1, minimun-scale-1">
+    <link rel="stylesheet" type="text/css" href="../css/fontello.css">
+    <link rel="stylesheet" type="text/css" href="../css/estilos.css">
+</head>
+<body>
+	<header>
+    <div class="contenedor">
+        <h1 class="">DAW</h1>
+        <input type="checkbox" id="menu-bar">
+        <label class="icon-menu" for="menu-bar"></label>
+                <nav class="menu">
+                    <a href="../index.html">Inicio</a>
+                    <a href="localStorage.html">LocalStorage</a>
+                    <a href="indexedDB.html">IndexedDB</a>
+                </nav>
+            </div>
+    </header>
+    <main>
+            <section id="banner" >
+                <div class="contenedor">
+                    <h2>SessionStorage</h2> 
+                </div>
+            </section>
+            
+            <section id="bienvenidos">
+            <div class="contenedor">
+                <h2 id="titulo">¿Qué es el SessionStorage? </h2><br>
+                <p>
+                    La propiedad sessionStorage permite acceder a un objeto Storage asociado a la sesión actual. La propiedad sessionStorage es similar a localStorage (en-US), la única diferencia es que la información almacenada en localStorage no posee tiempo de expiración, por el contrario la información almacenada en sessionStorage es eliminada al finalizar la sesion de la página. La sesión de la página perdura mientras el navegador se encuentra abierto, y se mantiene por sobre las recargas y reaperturas de la página. Abrir una página en una nueva pestaña o ventana iniciará una nueva sesión, lo que difiere en la forma en que trabajan las cookies de sesión.
+                </p>
+                <br>
+            
+                </div>
+            </section>
+            <section id="blog">
+                <h3>Las características de SessionStorage son:</h3>
+                <br>
+                <div class="contenedor">
+                    <ul>
+                        <li>
+                            <p>Está también basado en el formato clave-valor.</p>
+                        </li>
+                        <br>
+                        <li>
+                            <p>La información persiste hasta que la pestaña o ventana es cerrada, incluso con una recarga de la página</p>
+                        </li>
+                        <br>
+                        <li>
+                            <p>Almacena entre 5 y 10MB de datos, dependiendo del navegador que se utilice.</p>
+                        </li>
+                        <br>
+                        <li>
+                            <p>Sólo los scripts del mismo origen pueden acceder a los datos.</p>
+                        </li>
+                        <br>
+                        <li>
+                            <p>Está limitado al uso dentro de la misma pestaña, no se puede compartir información entre ventanas o pestañas.</p>
+                        </li>
+                        <br>
+                        <li>
+                            <p>Es de uso exclusivo del lado cliente.</p>
+                        </li>
+                        <br>
+                        <li>
+                            <p>El formato de la información que se almacena es de tipo texto.</p>
+                        </li>
+                        <br>
+                    </ul>
+                </div>
+            </section>
+            
+            <section id="blog">
+                <h3>La forma más adecuada de trabajar con el Session Storage sería:</h3>
+                <br>
+                <div class="contenedor">
+                    <ul>
+                        <li>
+                            <p>Para almacenar un elemento: sessionStorage.setItem(“key”, “value”)</p>
+                        </li>
+                        <br>
+                        <li>
+                            <p>Para obtener un elemento: sessionStorage.getItem(“key”)</p>
+                        </li>
+                        <br>
+                        <li>
+                            <p>Para eliminar un elemento: sessionStorage.removeItem(“key”)</p>
+                        </li>
+                        <br>
+                        <li>
+                            <p>Para limpiar toda la información: sessionStorage.clear()</p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+
+            <section id="info">
+                <h3>Sintaxis del SessionStorage</h3>
+                <br>
+                <div class="contenedor"><br>
+                    <img src="img/sintaxis.png" alt="">
+                </div>
+            </section>
+
+            <section id="info">
+                <h3>Guardar Datos con SessionStorage</h3>
+                <br>
+                <div class="contenedor"><br>
+                    <img src="img/Guardar sessionstorage.png" alt="">
+                </div>
+            </section>
+
+            <section id="info">
+                <h3>Recuperar Datos con SessionStorage</h3>
+                <br>
+                <div class="contenedor"><br>
+                    <img src="img/Recuperar sessionstorage.png" alt="">
+                </div>
+            </section>
+
+            <section id="info">
+                <h3>Borrar Datos con SessionStorage</h3>
+                <br>
+                <div class="contenedor"><br>
+                    <img src="img/Borrar sessionstorage.png" alt="">
+                </div>
+            </section>
+
+            <section id="info">
+                <h3>Limpiar Datos con SessionStorage</h3>
+                <br>
+                <div class="contenedor"><br>
+                    <img src="img/Limpiar sessionstorage.png" alt="">
+                </div>
+            </section>
+        </main>
+    
+
+
+
+        <footer>
+            <div class="contenedor">
+                <p class="copy">Samuel Ernesto Bonilla Arias &copy; 2022</p>
+            </div>
+        </footer>
+
+</body>
+</html>

@@ -7,12 +7,32 @@
     <title>Ejemplo LocalStorage</title>
 
     <link rel="stylesheet" href="../css/ejemplo_localStorage.css">
+    <link rel="stylesheet" href="../css/estilos.css">
 </head>
 <body>
-    <h1>Ejemplo LocalStorage</h1>
-    <h2 id="welcome-text">Bienvenid@</h2>
-    
-    <div class="container" id="cont">
+    <header>
+        <div class="contenedor">
+            <h1 class="">DAW</h1>
+            <input type="checkbox" id="menu-bar">
+            <label class="icon-menu" for="menu-bar"></label>
+                    <nav class="menu">
+                        <a href="../index.html">Inicio</a>
+                        <a href="ejemplo_sessionStorage.html">Ej. SessionStorage</a>
+                        <a href="ejemplo_indexedDB.html">Ej. IndexedDB</a>
+                    </nav>
+                </div>
+        </header>
+        <main>
+                <section id="banner" >
+                    <div id="banner"></div>
+                    <div class="contenedor">
+                        <h2>Ejemplo <br> LocalStorage</h2> 
+                    </div>
+                </section>
+
+            
+                <h2 id="titulo">Crea Tu Cuenta</h2>
+        <div class="container" id="cont">
         <div class="sub-container">
             <label for="">Nombre de Usuario</label>
             <input type="text" id="nombre-usuario" >
@@ -23,12 +43,13 @@
             <input type="text" id="password" >
         </div> 
     
-        <button id="crear">Crear Cuenta</button>
+        <button id="crear" class="submit">Crear Cuenta</button>
     </div>
 
     
     <h1 id="cuenta-creada"></h1>
-    <button id="delete">Borrar Cuenta</button>
+    <button id="delete" class="submit">Borrar Cuenta</button>
+    
         <script src="../js/local-storage.js"></script>
 </body>
 </html>

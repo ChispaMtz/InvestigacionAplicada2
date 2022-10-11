@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&family=Silkscreen&family=Ubuntu&family=Roboto+Mono&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: #373832;
+}
+
+header {
+    width: 100%;
+    background: #333;
+    color: #fff;
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.contenedor {
+    width: 98%;
+    margin: auto;
+    font-family: 'Quicksand', sans-serif;
+}
+
+h1 {
+    padding: 0.5em 0;
+}
+
+
+section {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+
+footer .contenedor {
+    display: flex;
+    color: white;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+
+.copy {
+    font-size: 20px;
+}
+
+
+@media (min-width:768px) { 
+    footer .contenedor {
+        justify-content: space-between;
+    }
+}
+
+
+@media (min-width:1024px) {
+    .contenedor {
+        width: 1000px;
+    }
+}
+
+
+
+
+#info {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+#info .contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.info-pet {
+    margin: 20px;
+}
+
+.info-pet img {
+    width: 180px;
+    height: 180px;
+    border-radius: 20%;
+    border: 7px solid #fff;
+}
+
+
+#menu-bar {
+    display: none;
+}
+
+header label {
+    float: right;
+    font-size: 28px;
+    margin: 6px 0;
+    cursor: pointer;
+}
+
+.button {
+    margin-top: 20px;
+    background-color: #ffec3e; /* Green */
+    border: none;
+    padding: 16px 32px;
+    text-align: center;
+    border-radius: 10px;
+    text-decoration: none;
+    display:grid;
+    font-size: 18px;
+    margin: 10px 6px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-family: 'Roboto Mono', sans-serif;
+}
+
+.button1 {
+    width: 50%;
+    background-color: white; 
+    color: black; 
+    border: 2px solid #cecb2c;
+}
+
+.button1:hover {
+    background-color: #cecb2c;
+    color: rgb(0, 0, 0);
+}
+

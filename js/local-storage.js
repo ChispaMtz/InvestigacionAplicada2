@@ -1,5 +1,5 @@
 let container = document.getElementById("cont");
-let welcome = document.getElementById("welcome-text");
+let welcome = document.getElementById("titulo");
 let username = document.getElementById("nombre-usuario");
 let password = document.getElementById("password");
 
@@ -18,7 +18,7 @@ borrar.style.display = "none";
     }
 
 function crearCuenta () {
-    if (username.value.trim().length == 0 && password.value.trim().length == 0) {
+    if (username.value.trim().length == 0 || password.value.trim().length == 0) {
         alert("Los datos no pueden quedar vacios")
     } else {
         localStorage.setItem("username", username.value);
@@ -38,7 +38,9 @@ function bienvenida () {
 function borrarCuenta () {
     localStorage.removeItem("username");
     localStorage.removeItem("password");
-    welcome.innerHTML = "Bienvenid@ ";
+    username.value = "";
+    password.value = "";
+    welcome.innerHTML = "Crea Tu Cuenta";
     container.style.display = "grid";
     mensaje.innerHTML = "";
     borrar.style.display = "none";

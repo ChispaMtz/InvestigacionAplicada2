@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&family=Silkscreen&family=Ubuntu&family=Roboto+Mono&display=swap');
 
 [class*="fontawesome-"]:before {
   font-family: 'FontAwesome', sans-serif;
@@ -12,7 +12,7 @@
 }
 
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Roboto Mono', sans-serif;
     background: #373832;
 }
 
@@ -60,13 +60,9 @@ footer .contenedor {
 
 .copy {
     font-size: 20px;
+    color: #FFF;
 }
 
-.sociales {
-    width: 100%;
-    text-align: center;
-    font-size: 28px;
-}
 
 
 @media (min-width:768px) { 
@@ -113,9 +109,23 @@ footer .contenedor {
     position: relative;
 }
 
-#banner img {
+#banner  {
+    background-color: #f0db4e;
     width: 100%;
     height: 100%;
+}
+
+h2 {
+    color: #000;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 6.5em !important;
+    text-align: center;
+}
+
+#titulo {
+    font-size: 3em !important;
+    color: #FFF;
+    font-family: 'Roboto Mono', sans-serif;
 }
 
 #banner .contenedor {
@@ -262,5 +272,5 @@ table, th,td{
 }
 
 td{
-    color: violet;
+    color: #FFF;
 }

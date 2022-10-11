@@ -6,9 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IndexedDB</title>
     <link rel="stylesheet" href="../css/ejemplo_indexedDB.css">
+    <link rel="stylesheet" href="../css/estilos.css">
 </head>
 <body>
+    <header>
+        <div class="contenedor">
+            <h1 class="">DAW</h1>
+            <input type="checkbox" id="menu-bar">
+            <label class="icon-menu" for="menu-bar"></label>
+                    <nav class="menu">
+                        <a href="../index.html">Inicio</a>
+                        <a href="ejemplo_sessionStorage.html">Ej. SessionStorage</a>
+                        <a href="ejemplo_localStorage.html">Ej. LocalStorage</a>
+                    </nav>
+                </div>
+        </header>
+        <main>
+                <section id="banner" >
+                    <div id="banner"></div>
+                    <div class="contenedor">
+                        <h2>Ejemplo <br> IndexedDB</h2> 
+                    </div>
+                </section>
+
     
+    <h2 id="titulo">Notas</h2>
+
+    <form class="notes" id="notes">
+        <input type="text" name="" id="note">
+        <input type="submit" id="add" class="submit" value="Añadir Nota">
+    </form>
+
+    <div class="notes">
+        <h2 id="titulo">Notas Añadidas</h2>
+        <ol id="ol"></ol>
+    </div>
     <script src="../js/indexedDB.js"></script>
 </body>
 </html>

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>LocalStorage</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scable=no, initial-scale=1, maximun-scale-1, minimun-scale-1">
+    <link rel="stylesheet" type="text/css" href="../css/fontello.css">
+    <link rel="stylesheet" type="text/css" href="../css/estilos.css">
+</head>
+<body>
+	<header>
+    <div class="contenedor">
+        <h1 class="">DAW</h1>
+        <input type="checkbox" id="menu-bar">
+        <label class="icon-menu" for="menu-bar"></label>
+                <nav class="menu">
+                    <a href="../index.html">Inicio</a>
+                    <a href="sessionStorage.html">SessionStorage</a>
+                    <a href="indexedDB.html">IndexedDB</a>
+                </nav>
+            </div>
+    </header>
+    <main>
+            <section id="banner" >
+                <div id="banner"></div>
+                <div class="contenedor">
+                    <h2>LocalStorage</h2> 
+                </div>
+            </section>
+            
+            <section id="bienvenidos">
+            <div class="contenedor">
+                <h2 id="titulo">¿Qué es el LocalStorage? </h2><br>
+                <p>
+                    La propiedad de sólo lectura localStorage te permite acceder al objeto local Storage; los datos persisten almacenados entre de las diferentes sesiones de navegación. localStorage es similar a sessionStorage. La única diferencia es que, mientras los datos almacenados en localStorage no tienen fecha de expiración, los datos almacenados en sessionStorage son eliminados cuando finaliza la sesion de navegación, lo cual ocurre cuando se cierra la página.
+                </p>
+                <br>
+
+                <p>
+                    Debe tenerse en cuenta que los datos almacenados tanto en localStorage como en sessionStorage son específicos del protocolo de la página.
+                </p>
+            
+                </div>
+            </section>
+            <section id="blog">
+                <h3>Las características de Local Storage son:</h3>
+                <br>
+                <div class="contenedor">
+                    <ul>
+                        <li>
+                            <p>Permiten almacenar entre 5MB y 10MB de información; incluyendo texto y multimedia</p>
+                        </li>
+                        <br>
+                        <li>
+                            <p>La información está almacenada en la computadora del cliente y NO es enviada en cada petición del servidor, a diferencia de las cookies</p>
+                        </li>
+                        <br>
+                        <li>
+                            <p>Utilizan un número mínimo de peticiones al servidor para reducir el tráfico de la red</p>
+                        </li>
+                        <br>
+                        <li>
+                            <p>Previenen pérdidas de información cuando se desconecta de la red</p>
+                        </li>
+                        <br>
+                        <li>
+                            <p>La información es guardada por domino web (incluye todas las páginas del dominio)</p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            
+            <section id="info">
+                <h3>Compatibilidad de Navegadores</h3>
+                <br>
+                <div class="contenedor"><br>
+                    <img src="img/nave.png" alt="">
+                </div>
+            </section>
+
+            <section id="info">
+                <h3>Existen dos formas de guardar datos en LocalStorage, que son las siguientes:</h3>
+                <br>
+                <div class="contenedor"><br>
+                    <img src="img/iniciar.png">
+                </div>
+            </section>
+            <section id="info">
+                <h3>Al igual que para agregar información, para recuperarla tenemos dos maneras de hacerlo</h3>
+                <br>
+                <div class="contenedor"><br>
+                    <img src="img/b.png">
+                </div>
+            </section>
+            <section id="info">
+                <h3>Para eliminar un elemento dentro de Storage haremos lo siguiente:</h3>
+                <br>
+                <div class="contenedor"><br>
+                    <img src="img/c.png">
+                </div>
+            </section>
+            <section id="info">
+                <h3>Ventajas y desventajas</h3>
+                <br>
+                <div class="contenedor"><br>
+                    <table>
+                        <tr>
+                            <th>Ventajas</th>
+                            <th>Desventajas</th>
+                        </tr>
+                        <tr>
+                            <td>El acceso a la información es rápido, dado los datos se almacenan de la forma llave-valor</td>
+                            
+                        </tr>
+                        <tr>
+                            <td>
+                                Los valores que almacena se comparten entre todas las ventanas del mismo sitio
+                            </td>
+                            <td>El mismo carácter llave-valor que tiene, hace que para un cúmulo grande de datos no sea eficiente la utilización del mismo</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Los valores almacenados perduran incluso después de cerrar las ventanas
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </section>
+
+
+
+        </main>
+    
+
+
+
+        <footer>
+            <div class="contenedor">
+                <p class="copy">Diego Martinez &copy; 2022</p>
+            </div>
+        </footer>
+
+</body>
+</html>
